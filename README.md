@@ -26,7 +26,7 @@ Logfile has line as:
 To graph in OpenTSDB:
 ~~~
 	<match json.metrics>
-	    type jopentsdb
+	    @type jopentsdb
 	    host localhost
 	    port 4242
 	</match>	
